@@ -1,0 +1,9 @@
+Punto 2_f
+- ¿Puede ver el archivo tp2_1_2.c? ¿Por qué?
+No puedo ver el archivo tp2_1_2.c porque estoy parada en la rama main y  este archivo se encuentra en la rama Opcion_2, y entre ramas no pueden "ver" los cambios que se realicen en otras ramas distintas a ellas.
+
+- vuelva a ejecutar el comando gitk --all ¿Qué diferencias nota?
+En la representación gráfica del historial de versiones del repositorio se ve como se segregaron dos ramas y en cada una de ellas se observan los distintos cambios realizados. En la rama main se puede ver el commit donde se agrego el archivo Respuestas.txt y en la rama Opcion_2 se observa el commit donde se agrego el archivo tp2_1_2.c.
+
+- Luego utilice el comando gitk –all para ver los cambios, ¿Qué nota?
+Luego de combinar ambas ramas (main y Opcion_2) podemos ver como nos queda una sola rama en la cual trabajar con los cambios de las dos anteriores.
